@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{ 
+    font-family: sans-serif;
+    box-sizing: border-box;
+    background-image: url(https://copyrightservice.co.uk/_f/7615/9922/2304/pexels-thibault-trillet-167636.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.navbar {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    max-height: 5%;
+    
+}
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: space-evenly;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+.nav-image {
+    display: flex;
+    width: auto;
+    height: auto;
+    max-height: 200%;
+    min-height: 20%;
+    opacity: 0.6;
+    margin-top: 10px;
+
+}
+
+ul { list-style-type: none;
+    text-align: center; 
+    font-size: 25px; 
+    width: 100%;
+}
+
+.containerhorizontal {
+    display: flex;
+    display: -webkit-flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3%;
+}
+.infobox{
+    border: 3px solid black;
+    border-radius: 5px;
+    background-color: rgba(253, 253, 253, 0.2);
+    max-width: 25%;
+    max-height: 90%;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    column-gap: 100px;
+    text-align: center;
+    
+}
+.infobox hr {
+    height: 3px;
+    border:0;
+    background:black;
+}
+.infobox p {
+    color: black;
+    font-size: 25px;
+}
+.photo{
+    height: auto;
+    width: auto;
+    max-width: 100%;
+
+}
+.containervertical {
+    display:flex;
+    display: -webkit-flex;
+    width: 100%;
+    height: 70%;
+    flex-direction: column;
+    column-gap: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+
+.mailinglist {
+    
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+    margin: 0 auto;
+    padding-bottom: 10%;
+    text-align:center;
+    max-width: 25%;
+    max-height: 50%;
+    border-radius: 5px;
+    color:white
+}
+.mailinglist hr{
+    width: 100px;
+    height: 1px;
+    margin: 30px auto;
+    border:0;
+    background:white;
+}
+.mailinglist input {
+    border-radius: 3px;
+    background-color: white;
+    width: 100%;
+    height: 30px;
+    padding: 0, 20px;
+    color: white;
+    outline: none;
+    box-sizing: border-box;
+    font-size: 16px;
+
+}
+.mailinglist button {
+    border: 1px solid white;
+    border-radius: 3px;
+    height: 30px;
+    background-color: transparent;
+    color: white;
+    padding: 0px 28px;
+    cursor: pointer;
+    transition: 0.5s;
+    font-size: 16px;
+
+}
+.mailinglist button:hover {
+    background-color: rgb(62, 84, 245);
+    border-color: blue;
+
+
+}
