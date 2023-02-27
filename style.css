@@ -5,7 +5,7 @@
 body{ 
     font-family: sans-serif;
     box-sizing: border-box;
-    background-image: url(https://copyrightservice.co.uk/_f/7615/9922/2304/pexels-thibault-trillet-167636.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(https://copyrightservice.co.uk/_f/7615/9922/2304/pexels-thibault-trillet-167636.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -64,7 +64,6 @@ ul { list-style-type: none;
     border-radius: 5px;
     background-color: rgba(253, 253, 253, 0.2);
     max-width: 25%;
-    max-height: 90%;
     color: white;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     column-gap: 100px;
@@ -81,10 +80,11 @@ ul { list-style-type: none;
     font-size: 25px;
 }
 .photo{
-    height: auto;
-    width: auto;
-    max-width: 100%;
-
+    flex: auto;
+    object-fit: fill;
+    width: 100%;
+    height: 95%;
+   
 }
 .containervertical {
     display:flex;
@@ -103,7 +103,7 @@ ul { list-style-type: none;
     
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: small;
-    margin: 0 auto;
+    margin: 5% auto;
     padding-bottom: 10%;
     text-align:center;
     max-width: 25%;
@@ -114,7 +114,7 @@ ul { list-style-type: none;
 .mailinglist hr{
     width: 100px;
     height: 1px;
-    margin: 30px auto;
+    margin: 20px auto;
     border:0;
     background:white;
 }
@@ -124,7 +124,7 @@ ul { list-style-type: none;
     width: 100%;
     height: 30px;
     padding: 0, 20px;
-    color: white;
+    color: black;
     outline: none;
     box-sizing: border-box;
     font-size: 16px;
@@ -140,11 +140,13 @@ ul { list-style-type: none;
     cursor: pointer;
     transition: 0.5s;
     font-size: 16px;
-
+    margin-bottom: 10px;
 }
 .mailinglist button:hover {
     background-color: rgb(62, 84, 245);
     border-color: blue;
-
-
+}
+Span {
+    font-size: 20px;
+    display: block;
 }
