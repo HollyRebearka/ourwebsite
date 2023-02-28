@@ -98,6 +98,41 @@ ul { list-style-type: none;
     
 }
 
+.infoboxreleases{
+    border: 3px solid black;
+    border-radius: 5px;
+    background-color: rgba(253, 253, 253, 0.2);
+    max-width: 45%;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    column-gap: 100px;
+    text-align: center;
+    
+}
+
+.infoboxreleases p{
+    flex: auto;
+    height: 35%;
+
+
+}
+
+.infoboxreleases hr {
+    height: 3px;
+    border:0;
+    background:black;
+}
+
+iframe {
+    flex: auto;
+    object-fit: fill;
+    width: 90%;
+    height: 50%;
+   padding-bottom: 10%;
+   padding-left: 5%;
+   padding-right: 5%;
+    
+}
 
 .mailinglist {
     
