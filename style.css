@@ -75,7 +75,7 @@ ul { list-style-type: none;
     color: black;
     font-size: 25px;
     flex: auto;
-    max-height: 35%;
+    max-height: 50%;
 }
 .photo{
     flex: auto;
